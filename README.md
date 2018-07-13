@@ -3,7 +3,8 @@
 ## Quickstart
 
 `$ npm install` || `$ yarn`
-'$ gulp'
+
+`$ gulp`
 
 ## What this includes
 
