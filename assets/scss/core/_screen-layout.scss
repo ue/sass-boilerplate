@@ -1,0 +1,17 @@
+.container {
+  @include flex-center-column;
+  height: 100vh;
+  flex-wrap: wrap;
+
+  > * {
+    width: 100vw;
+  }
+  .header,
+  .footer {
+    @include flex-center;
+  }
+}
+
+.content {
+  flex-grow: 1;
+}

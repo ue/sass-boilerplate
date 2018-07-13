@@ -1,0 +1,29 @@
+.footer {
+  background-color: white;
+  height: 90px;
+  box-shadow: 0px 1px 13px $grey-color;
+  a {
+    text-decoration: none;
+  }
+}
+
+.nav-bar {
+  @include flex-center-row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  width: 100vw;
+}
+
+// Tab buttons
+.tab-button {
+  @include flex-center;
+
+  height: 4em;
+  width: 4em;
+  border-radius: 50%;
+  box-shadow: 0px 0px 5px $grey-color;
+}
+
+.tab-button-icon {
+  font-size: 3em;
+}

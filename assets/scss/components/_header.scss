@@ -1,0 +1,27 @@
+.header {
+  background: $header-color;
+  height: 90px;
+  @include flex-center-column;
+
+  * {
+    @include flex-center;
+  }
+
+  .title-buttons {
+    width: 100vw;
+    flex-direction: row;
+
+    .header-right,
+    .header-left {
+      padding: 1em;
+      color: $white-color;
+    }
+
+    .header-title {
+      flex-direction: column;
+      color: $white-color;
+      flex-grow: 1;
+      font-size: 2em;
+    }
+  }
+}
